@@ -36,7 +36,7 @@ const UploadProduct = ({
   const [openFullScreenImage, setOpenFullScreenImage] = useState(false);
   const [fullScreenImage, setFullScreenImage] = useState("");
   
-  // alert(authToken)
+
   const handleOnChange = (e) => {
     const { name, value } = e.target;
     setData((prev) => ({
